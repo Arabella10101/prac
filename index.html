@@ -7,30 +7,36 @@
     <link rel="stylesheet" href="css.css"> 
 </head>
 <body class="test">
-    <h1>
-        webpage with
-        <small class="text-muted">faded text</small> 
-    </h1>
-
-    <p class="lead">
-        random bunch of text
-    </p>
-
-    <p>
-        <abbr title="attribute">attr</abbr>
-    </p>
-    <p>
-        <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
-    </p>
-
-    <button id="one" class="btn btn-primary"> click </button>
-    <button id= "dark1" class="btn btn-outline-dark">
-        Dark 
-    </button>
-
-    <br>
-    <br>
-
+<div class="navigation">
+<span class="navigation-link">Home</span>
+</div>    
+   <div class="actual-body">
+        <h1>
+                webpage with
+                <small class="text-muted">faded text</small> 
+                <a class="navigation-link" href="about.html">About me</a>
+            </h1>
+        
+            <p class="lead">
+                random bunch of text
+            </p>
+        
+            <p>
+                <abbr title="attribute">attr</abbr>
+            </p>
+            <p>
+                <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+            </p>
+        
+            <button id="one" class="btn btn-primary"> click </button>
+            <button id= "dark1" class="btn btn-outline-dark" onclick="goDark()">
+                Dark 
+            </button>
+        
+            <br>
+            <br>
+        
+   </div>
     <script type="text/javascript" src="scipt.js">
     </script>
 </body>
